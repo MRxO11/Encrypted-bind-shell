@@ -20,7 +20,7 @@ PyCryptodome
 
 ### Install dependencies:
 
-''' pip install pycryptodome '''
+``` pip install pycryptodome ``` 
 
 ### Usage
 
