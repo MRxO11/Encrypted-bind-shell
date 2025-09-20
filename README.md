@@ -42,11 +42,12 @@ Replace <SERVER_IP> with the server's IP address.
 
 Replace <AES_KEY> with the key displayed on the server.
 
-Example
+
+### Example
 
 Server:
 
-python bind_shell.py --listen
+``` python bind_shell.py --listen ```
 
 
 Output:
@@ -55,10 +56,12 @@ Key -> a3f9c7e8b5d2f1a0e3b9c1d7a2f4e5d6...
 [ -- Starting Bind Shell -- ]
 
 
+
 Client:
 
-python bind_shell.py --connect 192.168.1.10 --key a3f9c7e8b5d2f1a0e3b9c1d7a2f4e5d6...
+``` python bind_shell.py --connect 192.168.1.10 --key a3f9c7e8b5d2f1a0e3b9c1d7a2f4e5d6... ```
 [ Connecting to Bind Shell !! ]
+
 
 ### Important Notes
 
